@@ -1,4 +1,63 @@
-.navvy {
-  width: 60%;
-  background-color: gray;
+.body {
+  margin: 0px;
+  background-color: white;
+  color: black;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+}
+
+.logo-img {
+  height: 40px;
+  float: left;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.nav-bar-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar-search {
+  width: 250px;
+  height: 40px;
+  margin: 5px;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.nav-bar-search:hover {
+  width: 260px;
+  height: 50px;
+  margin: 0px;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.nav-bar-button {
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  font-weight: normal;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.nav-bar-button:hover {
+  width: 110px;
+  height: 50px;
+  margin: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
 }
